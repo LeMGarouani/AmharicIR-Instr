@@ -21,8 +21,6 @@ This directory contains instruction–response style data designed for training 
 - **`amharic_gpt_dataset.csv`**  
   A CSV version of the same dataset for easier inspection and preprocessing.
 
-- **`amharic_GPT_cleaned.xlsx`**  
-  A cleaned and structured Excel version of the dataset, intended for manual inspection and statistical analysis.
 
 These datasets are suitable for:
 - Instruction tuning  
@@ -45,8 +43,6 @@ This directory contains datasets designed for training/evaluating information re
 - **`amharic_dense_ir.csv`**  
   CSV version of the dense retrieval dataset.
 
-- **`All dense retrieval dataset.xlsx`**  
-  A consolidated Excel file containing the full dense retrieval dataset.
 
 These datasets are suitable for:
 - Dense Passage Retrieval (DPR)  
@@ -64,7 +60,7 @@ instruction prompts for LLM-generated queries
 
 ## 📌 Available Formats
 
-All datasets are provided in multiple formats (JSON, CSV, XLSX) to support:
+All datasets are provided in multiple formats (JSON, JSONL, CSV) to support:
 - Model training  
 - Exploratory data analysis  
 - Reproducible research workflows  
