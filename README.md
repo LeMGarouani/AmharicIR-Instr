@@ -36,7 +36,7 @@ These datasets are suitable for:
 This directory contains datasets designed for training/evaluating information retrieval models using *(query, positive document, negative document)* triplets.
 
 ### Files:
-- **`JSINL format`**  
+- **`JSONL format`**  
   Triplet-based dense retrieval dataset in JSONL format suited for the BEIR IR framework.
   
 - **`amharic_dense_ir.json`**  
@@ -54,6 +54,13 @@ These datasets are suitable for:
 - Neural information retrieval in Amharic  
 
 ---
+
+## 📝 File Generation Prompts
+
+- **`prompts.docx`** 
+instruction prompts for LLM-generated queries
+---
+
 
 ## 📌 Available Formats
 
